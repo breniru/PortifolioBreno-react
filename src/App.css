@@ -1,0 +1,147 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Gabriela&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+
+
+
+body {
+    background: rgb(77,0,103);
+    background: linear-gradient(90deg, rgba(77,0,103,1) 13%, rgba(32,10,62,1) 76%);
+    color: aliceblue;
+    font-size: 35px;
+    
+   
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    height:80vh;
+    align-items:center;
+    margin: 30px;
+    
+}
+
+.menu a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    border-right: 3px solid rgb(226, 81, 219);
+    padding: 0 30px;
+}
+.menu a:last-child {
+    border: none;
+}
+
+span {
+    color: rgb(255, 0, 221);
+}
+
+.sLogo {
+    width: 350px;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+.styleHeader {
+    display: flex;
+    align-items: center;
+}
+
+.styleHeader img {
+    width: 20%;
+    height: 20%;
+    margin-right: 10px;
+}
+
+.styleHeader h2 {
+    font-size: 50px;
+    font-family: "Patua One", serif;
+   
+}
+
+.styleMain {
+    margin: 70px 120px;
+}
+
+p {
+    text-align: justify;
+    font-family: "Encode Sans Semi Expanded", sans-serif;
+    font-size: 19px;
+    
+}
+
+.card {
+    border: 4px solid rgb(166, 0, 231);
+    border-radius: 11px;
+    background-color: #a013dd00;
+    margin: 0 5%;
+   
+}
+
+.card p {
+    font-family: "Roboto Slab", serif;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.card h3 {
+    text-align: center;
+    border-bottom: pink solid 1px;
+    line-height: 90px;
+    margin: 0;
+}
+
+.mainProjetos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 50px;
+    margin: 0 40px;
+
+}
+
+.containerHeader a:hover {
+    color: rgb(187, 101, 221);
+}
+
+.containerHeader a {
+    color: rgb(115, 0, 223);
+}
+
+.styleItem img {
+    width: 100px;
+}
+
+.styleItem p {
+    font-size: 25px;
+}
+
+.styleItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.styleItens {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12%;
+
+}
+
+
+
+
